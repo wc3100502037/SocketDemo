@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+ <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="IP地址设置：" 
+         android:textSize="18sp"
+        android:layout_weight="2"/> 
+    <EditText 
+        android:id="@+id/ipAdress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/pic_tip_bai_bg"
+        android:layout_weight="1"/>    
+     
+     
+ </LinearLayout>
+   
+ <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="端口设置：" 
+        android:textSize="18sp"
+        android:layout_weight="2"/>
+
+    <EditText
+        android:id="@+id/portNet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/pic_tip_bai_bg"/>
+   
+  
+     
+ </LinearLayout>
+ 
+  <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+     <Button 
+         android:id="@+id/connect"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="1"
+         android:background="@drawable/pic_btn_orange_on"
+         android:text="连接"/>
+     <Button 
+         android:id="@+id/cutoff"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="1"
+         android:text="断开"/>
+     
+ </LinearLayout>
+
+  <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+     <EditText
+         android:id="@+id/sendedText"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="@drawable/pic_tip_bai_bg"
+         android:layout_weight="2" 
+        />
+     <Button 
+         android:id="@+id/sendBtn"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="5"
+         android:background="@drawable/upomp_bypay_btn_big_bg_click"
+         android:text="发送"/>
+     
+ </LinearLayout>
+ 
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="horizontal"
+     android:layout_weight="1">
+     <TextView
+         android:id="@+id/receivedText"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="@drawable/pic_tip_bai_bg"
+         android:layout_weight="2" 
+        />
+     <TextView 
+         android:id="@+id/receivedView"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight="5"
+         android:background="@drawable/upomp_bypay_btn_big_bg_click"
+         android:text="接收"/>
+     
+ </LinearLayout>
+ 
+ 
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_weight="0.3">
+
+   
+     
+ </LinearLayout>
+    
+    
+
+</LinearLayout>
